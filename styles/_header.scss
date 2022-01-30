@@ -92,6 +92,15 @@ nav{
                     display:flex;
                     justify-content: space-evenly;
                     color: #999999;
+                    transition: color 100ms;
+                   
+                    .opciones{
+                        transition: color 100ms;
+                        &:hover{
+                            color:#fff;
+                            cursor: pointer;
+                        }
+                    }
                     .barras{
                         color:#343434
                     }

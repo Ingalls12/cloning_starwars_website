@@ -122,6 +122,18 @@ nav .navbar .nav-top .login .login-options {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   color: #999999;
+  -webkit-transition: color 100ms;
+  transition: color 100ms;
+}
+
+nav .navbar .nav-top .login .login-options .opciones {
+  -webkit-transition: color 100ms;
+  transition: color 100ms;
+}
+
+nav .navbar .nav-top .login .login-options .opciones:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 nav .navbar .nav-top .login .login-options .barras {
