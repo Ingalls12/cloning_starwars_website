@@ -1,0 +1,15 @@
+@import "./_header";
+@import "./_main";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    margin: 0;
+    font-family: url("../fonts/DINNextW01Regular.otf"), Helvetica, Arial, sans-serif;
+}
