@@ -183,7 +183,28 @@ nav .navbar .nav-bot .nav-options li.nav-options-item a:hover {
 
 main .principal {
   position: relative;
-  top: 13em;
+  top: 12em;
+}
+
+main .principal .title {
+  height: 3.06em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0a0b0b;
+  color: #999;
+  font-size: 1.1em;
+  width: 100%;
+}
+
+main .principal .carousel {
+  height: 52.52em;
 }
 
 * {

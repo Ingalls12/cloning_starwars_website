@@ -4,9 +4,17 @@
 main{
    .principal{
     position: relative;
-    top:13em;
-    .title{
-        
-    }
+    top:12em;
+        .title{
+            height:3.06em ;
+            @include flex-center();
+            background-color: #0a0b0b;
+            color: $icon_colors;
+            font-size: 1.1em;
+            width: 100%;
+        }
+        .carousel{
+            height: 52.52em;
+        }
    }
 }
