@@ -25,6 +25,7 @@ nav{
                        .fab{
                             color: $icon_colors;
                             font-size: 1.5em;
+                            transition: color 100ms;
                             &:hover{
                                 color: $icon_colors_hover;
                             }

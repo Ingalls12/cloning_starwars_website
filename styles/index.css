@@ -40,6 +40,8 @@ nav .navbar .nav-top .social-media .social-media-icons a {
 nav .navbar .nav-top .social-media .social-media-icons a .fab {
   color: #999;
   font-size: 1.5em;
+  -webkit-transition: color 100ms;
+  transition: color 100ms;
 }
 
 nav .navbar .nav-top .social-media .social-media-icons a .fab:hover {
